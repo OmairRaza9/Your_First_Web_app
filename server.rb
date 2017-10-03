@@ -12,3 +12,9 @@ get '/portfolio' do
 
 erb(:gallery)
 end
+
+get '/about_me' do
+  # instructions for what to do when user visits '/home' will go here
+
+  erb(:about_me)
+end
