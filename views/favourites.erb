@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Favourites</title>
+  </head>
+  <body>
+
+    <h1>Some Favourites</h1>
+
+    <ul>
+      <% @fav_links.each do |fav| %>
+      <li> <a href="<%= fav %>"> <%= fav %> </a>  </li>
+      <% end %>
+    </ul>
+
+
+
+  </body>
+</html>
